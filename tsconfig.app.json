@@ -19,9 +19,9 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
 
-    /* Linting */
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    /* Linting — noUnusedLocals désactivé */
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"]

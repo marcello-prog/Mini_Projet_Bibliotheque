@@ -1,1 +1,7 @@
-//  # Partagé entre books/ et admin/
+export interface User {
+  id: string
+  fullName: string
+  email: string
+  password: string
+  createdAt: string // ISO string
+}
